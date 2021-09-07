@@ -1,9 +1,9 @@
 <!----- Conexión con el servidor ----->
 <?php
-	$servidor = "localhost";
-	$usuario = "root";
-	$clave = "";
-	$baseDatos = "proyecto_final";
+	$servidor = "byk4010oj2lpus7am89y-mysql.services.clever-cloud.com";
+	$usuario = "u3mwaqkoqafvaxb7";
+	$clave = "QXxoad2QANKRgL85OfDm";
+	$baseDatos = "byk4010oj2lpus7am89y";
 	
 	$enlace = mysqli_connect($servidor, $usuario, $clave, $baseDatos);
 ?>
